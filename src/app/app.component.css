@@ -1,0 +1,32 @@
+.title1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.title2{
+    display: block;
+    color: #a2a2a2d9;
+    font-weight: bold;
+    font-size: 12px;
+}
+.title3{
+    color: gray;
+    list-style-type: none;
+}
+.title3 li{
+    padding: 0 5px;
+}
+.tradingnew{
+    background-color: #6f0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.site-footer {
+    background: #191919e8;
+    text-align: center;
+    padding: 10px 0;
+  }
+.footer-content{
+    color: #a9a4a4;
+    font-size: 20px;
+}

@@ -1,0 +1,536 @@
+<ngx-slick-carousel class="carousel" style="margin-top: 20px;background-color:lightgray"
+#slickModal="slick-carousel" 
+[config]="slideConfig" 
+(init)="slickInit($event)"
+(breakpoint)="breakpoint($event)"
+(afterChange)="afterChange($event)"
+(beforeChange)="beforeChange($event)">
+<div ngxSlickItem *ngFor="let slide of slides" class="slide">
+    <img src="{{ slide.img }}" alt="" width="100%" height="500px">
+</div>
+</ngx-slick-carousel>
+<div class="col-md-12" style="background-color:lightgray;padding-bottom: 30px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card">
+                <div class="container">
+                    <span>{{'HOME.001' | translate}}</span>
+                    <span style="float:right">{{'HOME.002' | translate}}</span>
+                    <hr style="background-color:gray">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card" style="border:none">
+                                <img src="assets/images/categories/category2.jpg" width="100%">
+                                <h6 style="margin-top:20px">(၇၃)နှစ်မြောက် လွတ်လပ်ရေးနေ့အခန်းအနား ကျင်းပရေး.......................................</h6>
+                                <h6 style="color:gray;">Jan 08,2021</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card" style="border:none">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="card-img" style="height: 100%;" src="assets/images/categories/category2.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding: 0 1.2rem;">
+                                            <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                            <span style="color:gray;font-size: 14px">Jan 08,2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="border:none">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="card-img" style="height: 100%;" src="assets/images/categories/category2.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding: 0 1.2rem;">
+                                            <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                            <span style="color:gray;font-size: 14px">Jan 08,2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="border:none">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="card-img" style="height: 100%;" src="assets/images/categories/category2.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding: 0 1.2rem;">
+                                            <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                            <span style="color:gray;font-size: 14px">Jan 08,2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="border:none">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="card-img" style="height: 100%;" src="assets/images/categories/category2.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding: 0 1.2rem;">
+                                            <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                            <span style="color:gray;font-size: 14px">Jan 08,2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" style="border:none">
+                                <div class="row no-gutters">
+                                    <div class="col-md-4">
+                                        <img class="card-img" style="height: 100%;" src="assets/images/categories/category2.jpg">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding: 0 1.2rem;">
+                                            <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                            <span style="color:gray;font-size: 14px">Jan 08,2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" style="background-color:aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" style="background-color: aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="container">
+                        <span>{{'HOME.005' | translate}}</span>
+                        <span style="float:right">{{'HOME.002' | translate}}</span>
+                        <hr style="background-color:gray">
+                        <img src="assets/images/categories/category2.jpg" width="100%">
+                        <h6 style="margin-top:20px">(၇၃)နှစ်မြောက် လွတ်လပ်ရေးနေ့အခန်းအနား ကျင်းပရေး.......................................</h6>
+                        <h6 style="color:gray;">Jan 08,2021</h6>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/images/categories/category2.jpg" width="100%">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/images/categories/category2.jpg" width="100%">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="assets/images/categories/category2.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="background-color:aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="background-color: aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="background-color:aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="background-color: aquamarine;height: 80px;">
+                        </div>
+                    </div>
+                </div>
+<!-- တင်ဒါခေါ်ယူခြင်း    -->
+                <div class="card">
+                    <div class="container">
+                        <span>{{'HOME.006' | translate}}</span>
+                        <span style="float:right">{{'HOME.002' | translate}}</span>
+                        <hr>
+                        <div class="card" style="border:none">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/images/categories/category2.jpg"  width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="border:none">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/images/categories/category2.jpg"  width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="border:none">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/images/categories/category2.jpg"  width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="border:none">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/images/categories/category2.jpg"  width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="border:none">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="assets/images/categories/category2.jpg"  width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <span class="max-lines">နေပြည်တော်စည်ပင်သာယာရေးကော်မတီ၊ မြို့ပြစီမံကိန်းနှင့်မြေစီမံခန့်ခွဲမှုဌာနမှ အိတ်ဖွင့်တင်ဒါခေါ်ယူခြင်း</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- တင်ဒါခေါ်ယူခြင်း END   -->
+                <div class="col-md-12" style="background-color: rgba(0,0,0, 0.4);">
+                    <div class="card" style="background:none;border:none;padding: 15px 0">
+                        <div class="container">
+                            <div class="row">
+                                <span class="card tradingnew">{{'HOME.004' | translate}}</span>
+                                <span style="margin-right: 20px;">{{'HEAD.006' | translate}}</span>
+                                <span style="margin-right: 20px;">{{'HEAD.007' | translate}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!-- Card col-md-4 -->
+            <div class="col-md-4">
+                    <div class="card">
+                    <div class="container">
+                        <span>{{'HOME.003' | translate}}</span>
+                        <hr>
+                        <div class="row">
+                            <div *ngFor="let ex of exchange" class="col-md-12">
+                                <span style="float: left;">{{ex.rate}}</span>
+                                <span style="float:right">{{ex.value}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card" style="height:150px;">
+                    </div>
+                    <div class="card" style="background-color: darkblue;color: #fff">
+                        <div class="container">
+                            <span>{{'HOME.007' | translate}}</span>
+                            <hr>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">ပြည်ထောင်စုသမ္မတမြန်မာနိုင်ငံတော် နိုင်ငံတော်စီမံအုပ်ချုပ်ရေးကောင်စီ အမိန့်အမှတ်၊ ၇၅ /၂၀၂၁ ၁၃၈၂ ခုနှစ်၊ တပို့တွဲလဆန်း ၈ ရက် (၂၀၂၁ ခုနှစ်၊ ဖေဖော်ဝါရီလ ၁၉ ရက် )</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ (၂၀၀၈ခုနှစ်)နှင့်အညီ နိုင်ငံတော်အားအရေးပေါ်အခြေအနေကြေညာ၍၊ ဖေဖော်ဝါရီလ၁ရက်နေ့မှစပြီး နိုင်ငံတော်တာဝန်အားရယူခဲ့ရပါသည်။</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ (၂၀၀၈ခုနှစ်)နှင့်အညီ နိုင်ငံတော်အားအရေးပေါ်အခြေအနေကြေညာ၍၊ ဖေဖော်ဝါရီလ၁ရက်နေ့မှစပြီး နိုင်ငံတော်တာဝန်အားရယူခဲ့ရပါသည်။</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ (၂၀၀၈ခုနှစ်)နှင့်အညီ နိုင်ငံတော်အားအရေးပေါ်အခြေအနေကြေညာ၍၊ ဖေဖော်ဝါရီလ၁ရက်နေ့မှစပြီး နိုင်ငံတော်တာဝန်အားရယူခဲ့ရပါသည်။</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ (၂၀၀၈ခုနှစ်)နှင့်အညီ နိုင်ငံတော်အားအရေးပေါ်အခြေအနေကြေညာ၍၊ ဖေဖော်ဝါရီလ၁ရက်နေ့မှစပြီး နိုင်ငံတော်တာဝန်အားရယူခဲ့ရပါသည်။</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="background-color: pink">
+                        <div class="container">
+                            <span>{{'HOME.008' | translate}}</span>
+                            <hr>
+                            <div class="container">
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">ဆေးရုံများ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- အလုပ်အကိုင်အခွင့်အလမ်းများ -->
+                    <div class="card">
+                        <div class="container">
+                            <span>{{'HOME.009' | translate}}</span>
+                            <hr>
+                            <div class="card cardborderleftstyle2">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle2">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle2">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                            <div class="card cardborderleftstyle2">
+                                <div class="container">
+                                    <span class="max-lines">မဲမသမာမှုများကြောင့် တပ်မတော်က ဖွဲ့စည်းပုံအခြေခံဥပဒေ</span>
+                                    <span style="font-size: 12px;color:gray;float: left;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</span>
+                                    <span style="font-size: 12px;color:gray;float: right;">Jan 08,2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- အလုပ်အကိုင်အခွင့်အလမ်းများ End -->
+
+<!-- အစိုးရဝက်ဆိုဒ်များ -->
+                    <div class="card">
+                        <div class="container">
+                            <span>{{'HOME.010' | translate}}</span>
+                            <hr>
+                            <div class="container">
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">နိုင်ငံတော်သမတရုံး</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">နိုင်ငံတော်သမတရုံး</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">နိုင်ငံတော်သမတရုံး</span>
+                                </div>
+                                <div class="row">
+                                    <span style="font-size:35px"><i class="fa fa-hospital-o" aria-hidden="true"></i></span>
+                                    <span style="padding: 10px;">နိုင်ငံတော်သမတရုံး</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- အစိုးရဝက်ဆိုဒ်များ End-->
+            </div>
+            
+<!-- Card col-md-4 End-->
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="container">
+                <span>{{'HOME.001' | translate}}</span>
+                <span style="float:right">{{'HOME.002' | translate}}</span>
+                <hr>
+                <img src="assets/images/categories/category2.jpg" width="100%">
+                <h6 style="margin-top:20px">(၇၃)နှစ်မြောက် လွတ်လပ်ရေးနေ့အခန်းအနား ကျင်းပရေး.......................................</h6>
+                <div class="col-md-12 row">
+                    <h6 style="color:gray;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</h6>
+                    <h6 style="color:gray;margin-left:20px">Jan 08,2021</h6>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card" style="border:none">
+                            <img src="assets/images/categories/category2.jpg" width="100%">
+                            <div style="padding-top:20px">
+                                <h6 style="color:gray;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</h6>
+                                <span style="color:gray;font-size: 14px;">Jan 08,2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="border:none">
+                            <img src="assets/images/categories/category2.jpg" width="100%">
+                            <div style="padding-top:20px">
+                                <h6 style="color:gray;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</h6>
+                                <span style="color:gray;font-size: 14px;">Jan 08,2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="border:none">
+                            <img src="assets/images/categories/category2.jpg" width="100%">
+                            <div style="padding-top:20px">
+                                <h6 style="color:gray;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</h6>
+                                <span style="color:gray;font-size: 14px;">Jan 08,2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card" style="border:none">
+                            <img src="assets/images/categories/category2.jpg" width="100%">
+                            <div style="padding-top:20px">
+                                <h6 style="color:gray;">စစ်ကိုင်းတိုင်းဒေသကြီးအစိုးရအဖွဲ့</h6>
+                                <span style="color:gray;font-size: 14px;">Jan 08,2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-12" style="background-color:lightskyblue;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card" style="border:none;background:none;text-align: center;color:white;">
+                    <h3><i class="fa fa-file-o" aria-hidden="true"></i></h3>
+                    <div style="padding-top:10px;">
+                        <h4>2134</h4>
+                        <h6 style="font-size: 14px;">၀န်ဆောက်မှုများ</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="height:150px">
+        </div>
+    </div>
+</div>
+<div class="col-md-12" style="background-color:darkblue;">
+    <div class="container" style="padding-top:20px">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="assets/images/hluttaw.png" width="110px" />
+                <div style="display: inline-grid;">
+                    <span class="title1">{{ 'HEAD.002' | translate }}</span>
+                    <span class="title2">{{ 'HEAD.003' | translate }}</span>
+                </div>
+                <div class="row" style="color:#fff">
+                    <div class="col-md-6">
+                        <div class="card" style="background:none;border:none">
+                            <h5>Help & Support</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" style="background:none;border:none">
+                            <h5>Help & Support</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/banner_MM1.png" width="100%"/>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+.card {
+    margin: 15px 0;
+}
+.tradingnew{
+    background-color: #6f0000;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top:auto !important;
+    margin-right: 20px;
+}
+hr {
+    background-color: gray
+}
+.title1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #a2a2a2d9;
+}
+.title2{
+    display: block;
+    color: #a2a2a2d9;
+    font-weight: bold;
+    font-size: 12px;
+}
+.title3 li{
+    padding: 0 5px;
+}
+.cardborderleftstyle{
+    border-radius: unset;
+    background: none;
+    border: 2px lightgray;
+    border-style: none none none solid;
+}
+.cardborderleftstyle2{
+    border-radius: unset;
+    background: none;
+    border: 2px blue;
+    border-style: none none none solid;
+}
+.max-lines {
+    display: block;/* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 5.5em;
+    line-height: 1.8em;
+    font-size: 14px;
+  }

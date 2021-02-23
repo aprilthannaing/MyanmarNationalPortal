@@ -1,7 +1,23 @@
 .card {
     padding: 15px 0;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
+
+.stock {
+    background-color: black;
+    border-radius: 5px;                                     
+}
+
+.stockTitle {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.stockText{
+    color: rgb(231, 224, 224);
+    font-size: 13px;
+}
+
 .tradingnew{
     background-color: #6f0000;
     color: #fff;
@@ -10,9 +26,11 @@
     margin-top:auto !important;
     margin-right: 20px;
 }
+
 hr {
     background-color: gray
 }
+
 .title1{
     font-size: 22px;
     font-weight: bold;

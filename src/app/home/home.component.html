@@ -228,17 +228,20 @@
             </div>
  <!-- Card col-md-4 -->
             <div class="col-md-4">
-                    <div class="card">
-                    <div class="container">
-                        <span>{{'HOME.003' | translate}}</span>
+                    <div class="card stock">
+                    <div class="container " >
+                        <span class="stockTitle">{{'HOME.003' | translate}}</span>
                         <hr>
                         <div class="row">
                             <div *ngFor="let ex of exchange" class="col-md-12">
-                                <span style="float: left;">{{ex.rate}}</span>
-                                <span style="float:right">{{ex.value}}</span>
+                                <span class="stockText" style="float: left;">{{ex.rate}}</span>
+                                <span class="stockText" style="float:right">{{ex.value}}</span>
                             </div>
                         </div>
                     </div>
+
+
+                    
                     </div>
                     <div class="card" style="height:150px;">
                     </div>

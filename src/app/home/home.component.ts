@@ -13,13 +13,13 @@ export class HomeComponent implements OnInit {
     {img: "assets/images/categories/category5.jpg"}
   ];
   exchange = [
-    {rate : "Myanmar",value:"29 Feb 2021"},
-    {rate : "US Dollor",value:"1300 USD"},
-    {rate : "Singapore",value:"900 SDG"},
-    {rate : "Malaysia",value:"4.2 MYR"},
-    {rate : "Myanmar",value:"29 Feb 2021"},
-    {rate : "US Dollor",value:"1300 USD"},
-    {rate : "Singapore",value:"900 SDG"},
+    {rate : "MYANMAR KYAT",value:"29 Feb 2021"},
+    {rate : "US DOLLAR",value:"1300 USD"},
+    {rate : "SINGAPORE",value:"900 SDG"},
+    {rate : "MALAYSIA",value:"4.2 MYR"},
+    {rate : "INDONESIA",value:"29 Feb 2021"},
+    {rate : "YUAN",value:"1300 USD"},
+    {rate : "EURO",value:"900 SDG"},
   ]
   slideConfig = {
     "slidesToShow": 1,

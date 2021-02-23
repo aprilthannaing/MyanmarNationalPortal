@@ -1,20 +1,37 @@
 <header>
   <div class="col-md-12" style="background:black">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <ul class="row title3">
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Google</li>
-          </ul>
+    <div class="navbar hidden-md top-nav">
+      <div class="container">
+        <!-- <div class="row">
+          <div class="col-md-6">
+            <ul class="row title3">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Google</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="row title3" style="float: right">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Google</li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="title3">
+          <span>Facebook</span>
+          <span>Twitter</span>
+          <span>Google</span>
         </div>
-        <div class="col-md-6">
-          <ul class="row title3" style="float: right">
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Google</li>
-          </ul>
+        <div class="title4">
+          <span>
+            <select #langSelect class="langSelect" (change)="translate.use(langSelect.value)">
+              <option *ngFor="let lang of translate.getLangs()" [value]="lang"
+                [selected]="lang === translate.currentLang">{{ lang }}</option>
+            </select>
+          </span>
+          <span>Twitter</span>
+          <span>Google</span>
         </div>
       </div>
     </div>

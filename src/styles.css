@@ -1,9 +1,9 @@
 .langSelect{
-    background: #4c56d4;
-    border-radius: 20px;
-    padding: 3px 10px;
+    background: #4c4c4c;
+    border-radius: 15px;
+    padding: 0 10px;
     color: #fff;
-    border: 1px solid #8bbaf9;
+    border: 1px solid #4c4c4c;
 	outline:none
 }
 
